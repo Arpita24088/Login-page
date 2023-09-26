@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  display: flex;
+ /* justify-content: center;
+  align-items: center;*/
+  background-color: #d7b3f9;
+  height: 100vh; /* Ensure the body takes up the full viewport height */
+}
+
+.login-container {
+  width: 600px;
+  height: 100%;
+  flex-shrink: 0;
+  margin: 0px auto; /* Center the container horizontally and add space all around */
+  padding: 40px;
+  background-color: #ecebeb;
+  border-radius: 00px; /* Added a value for border-radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-right: auto;
+}
+
+/* App.css */
+
+/* Add margin to create space between input boxes */
+.MuiTextField-root {
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+
+/*.login-title {
+  font-size: 40px;
+  text-align: center;
+  color: #C08261;
+}**/
+ 
+/* Add space between the submit button and input boxes */
+.login-container button[type="submit"] {
+  margin-top: 60px; /* Adjust the value as needed */
+}
+
+.login-title {
+  font-size: 40px;
+  text-align: center;
+  color: #504099;
+  margin-top: 20px; /* Add margin between the title and the top */
+}
+
+/* Style for the image */
+.image-style {
+
+  width: 50%; /* Set the width */
+  height: auto;
+  margin-left: auto;
+  /* Maintain aspect ratio */
+  /*border: 2px solid #333; /* Add a border */
+  /*border-radius: px; /* Add rounded corners */
+  /*box-shadow: 3px 3px 5px #888888; /* Add a shadow */
+}
+
+
+
+
+
+@media (max-width: 700px) {
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+  .login-container{
+    width: 90%;
+  }
+  .image-style{
+    margin-right: 20%;
+  }
+}
